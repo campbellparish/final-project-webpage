@@ -1,0 +1,99 @@
+/*close to the custom Cheltenham that NYT uses  */
+@importurl("https://fonts.googleapis.com/css?family=Domine");
+
+body {
+ padding: 5%;
+ background-image: url(https://t3.ftcdn.net/jpg/00/93/96/96/360_F_93969672_qYuLP5VhBcETsw2s5HFozdiqmaZa3H4k.jpg);
+ background-attachment: fixed;
+ background-position: top center;
+ background-size: cover;
+}
+
+article {
+ font-family: "Domine";
+ font-size: 3vw;
+ line-height: 1.5;
+
+ margin-bottom: 50%;
+ padding: 10%;
+
+ color: #ddd;
+ background-color: rgba(0, 0, 0, 0.8);
+}
+
+p,li {
+ margin-bottom: 1em;
+}
+
+strong {
+ font-weight: normal;
+
+ text-transform: uppercase;
+}
+
+.dropcap {
+ font-size: 500%;
+ line-height: 0.88;
+
+ float: left;
+
+ margin-right: 10px;
+}
+
+h1 {
+ font-family: Helvetica;
+ font-size: 10vw;
+ font-weight: bold;
+ line-height: 0.8;
+
+ width: 50%;
+ margin-top: 2em;
+ margin-bottom: 1em;
+
+ color: white;
+ text-shadow: 0 0 2vw black;
+}
+h1 span {
+ font-size: 3vw;
+
+ position: relative;
+ top: 1em;
+
+ display: block;
+
+ color: rgb(255, 255, 255);
+ text-shadow: none;
+}
+
+h2 {
+ font-family: Helvetica;
+ font-size: 3vw;
+ font-weight: normal;
+
+ text-align: center;
+ letter-spacing: 0.3em;
+
+ color: rgb(39, 150, 22);
+}
+
+a {
+ color: tomato;
+}
+
+em {
+ font-style: italic;
+}
+
+ul li {
+ list-style-type: disc;
+ list-style-position: inside;
+}
+
+ol li {
+ list-style-type: square;
+}
+/* fancy list bullets for Firefox and Safari */
+ol li::marker {
+ color: red;
+ content: "►";
+}
